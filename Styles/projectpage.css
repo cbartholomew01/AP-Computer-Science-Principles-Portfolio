@@ -1,0 +1,23 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: red;
+    text-align: left;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: left;
+}
+
+h2 {
+    color: darkblue;
+}
+
+li {
+    font-family: verdana;
+    font-size: 20px;
+}    

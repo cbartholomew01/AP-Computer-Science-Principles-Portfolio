@@ -1,0 +1,55 @@
+<!DOCTYPE.html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Project Page</title>
+    <link rel="stylesheet" href="Styles/projectpage.css">
+  </head>
+  <body>
+   
+  </body>
+  <h1>Projects Page</h1>
+  <ul>
+    <li><a href="aboutme.html">Here is a link my about me page.</a></li> 
+  </ul>
+  <p>Here are all of the projects that I have completed currently.</p>
+  <h2>Scratch Project</h2>
+  <video src="Images/ScratchVideo.webm" controls>
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="Images/ScratchVideo.webm">link to the video</a> instead.</p> 
+  </video>
+  <ul>
+    <li>
+    <p>My program was created in scratch. The purpose of my program is to have 
+    the user play a simple choose-your-own adventure game in which they follow 
+    the story of a highschool student and choose multiple decisions to affect 
+    how the student does on an upcoming test. There are three different endings 
+    to the game which the player can reach by making their decisions. Depending 
+    on the users choices the student can either fail, do just as well as he did 
+    previously, or pass the test. The video illustrates how the game is played, 
+    including controls, the way the dialogue is displayed, and a short background 
+    of who the user is playing as. It also shows off one of the three endings that 
+    the player can reach and the decisions the player can make in order to achieve 
+    that ending.</p>
+    </li>
+    <li><p>
+    There were multiple issues that both me and my partner ran into while
+    creating this game. One of the problems was the ability to progress back 
+    and forth through the dialogue. We wanted the player to be able to change 
+    their decision, in case they made a mistake in choosing it however, it only 
+    created problems for us. The way we did the dialogue was a simple accumulator 
+    value and once that value reached a certain number, it would display the dialogue, 
+    Because we had multiple decisions that could be made, there was a small overlap in 
+    the accumulator values so that if the player decided to go back in the dialogue it 
+    would cause an issue where it might go back to earlier in the story or switch to an 
+    entirely different outcome. To fix this I had to set the accumulator values to a much 
+    higher number for each decision to ensure that there would be no overlapping in the 
+    code. We also found a problem in resetting the sprites once the backgrounds changed 
+    back and forth. In the game there were multiple sprites used to tell the story and 
+    once the story progressed those sprites would get in the way, especially if the player 
+    were to go back to a previous screen. I had to duplicate some of the backgrounds and set 
+    them to their own independent values in order to get the proper sprites to display at the 
+    correct times.</p>
+    </li>
+    <li><a href="https://scratch.mit.edu/projects/244487241/#player" title="Scratch Project" target="_blank">Here is a link to my Scratch Project.</a></li>
+  </ul>
+</html>
