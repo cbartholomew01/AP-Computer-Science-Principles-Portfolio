@@ -16,7 +16,7 @@
   </ul>
   
   <h2>Scratch Project: The Struggle of Sebastian</h2>
-  <video src="Images/ScratchVideo.webm" controls>
+  <video src="Images/ScratchVideo.webm" controls width="1000" height="800">
   <p>Your browser doesn't support HTML5 video. Here is a <a href="Images/ScratchVideo.webm">link to the video</a> instead.</p> 
   </video>
   <ul>
@@ -52,14 +52,14 @@
     them to their own independent values in order to get the proper sprites to display at the 
     correct times.</p>
     </li>
-    <li><a href="https://scratch.mit.edu/projects/244487241/#player" title="Scratch Project" target="_blank">Here is a link to my Scratch Project.</a></li>
+    <li><a class=link href="https://scratch.mit.edu/projects/244487241/#player" title="Scratch Project" target="_blank">Here is a link to my Scratch Project.</a></li>
   </ul>
   
-  <h2>AppInventor Project: Choose That Pokemon</h2>
-  <video src="Images/IMG_8186.MOV" controls>
-  <p>Your browser doesn't support HTML5 video. Here is a <a href="Images/ScratchVideo.webm">link to the video</a> instead.</p> 
-  </video>
-  <ul>
+ <h2>AppInventor Project: Choose That Pokemon</h2>
+ <video src="Images/choosethatpokemon.mp4" controls width="800" height="1000">
+ <p>Your browser doesn't support HTML5 video. Here is a <a href="Images/choosethatpokemon.mp4">link to the video</a> instead.</p> 
+ </video>
+ <ul>
     <li>
     <p>The programming language used in the video is appInventor. My program is an app that aims
     to help people choose a pokemon starter if they are unsure of which one they want to pick. 
@@ -89,6 +89,39 @@
     using the scroll arrangement as there was not enough information to take up the entirety of 
     the screen.
     </p>
+    </li>
+  </ul>
+  
+  <h2>Python Project: Restaurant Helper</h2>
+  <video src="Images/restauranthelper.webm" controls width="1000" height="800">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="Images/restauranthelper.webm">link to the video</a> instead.</p> 
+  </video>
+  <ul>
+    <li><p>The program was written on repl.it with Python version 2.7.1. The purpose of this program 
+    is to provide assistance to people who go out to eat at restaurants. The video illustrates the 
+    code of the program and various inputs one can put in. This program easily calculates the tax 
+    on meals, how much you would spend on tip, and what the price would be if you split the bill.
+    The video also illustrates what happens when the user inputs anything other than a number or 
+    loat. If the user were to input “a” or any other letter, the program would provide an error 
+    message and prompt the user to input something else.</p></li>
+    <li><p>For the beginning of the program we had to code the amount of tax that is spent on the meal 
+    first. We had small issues with getting the math elements to work as we were combining strings 
+    with integers and floats. To fix this all we had to do was define all variables as floats, do 
+    the math, then define those floats as strings so that we could print the outputs. After the tax 
+    calculator, we added the tip amount and after that we added the people it was split by. Initially 
+    we had all of the code in one big chunk, but as we were running it we discovered that we needed 
+    to program a way to detect whether or not the input was a number. This was the part of the code 
+    we had the most trouble with. At first we tried to create multiple while loops to run the code 
+    through but when testing it, the code would just loop through that first while loop. Instead of 
+    creating multiple while loops, we decided to split the code up into two separate parts. We defined 
+    a new function aside from the main code that was specifically created to check the input. Creating 
+    the function was simple however, implementing the function into the main code proved to be a challenge. 
+    When running the code we would get an error message saying that it cannot concatenate non-type elements 
+    with our other float values, so we needed to figure out a way to add a float type to the input. To fix 
+    this we added a argument to the var() function, which was the input checker, which would be the prompt 
+    that asked the user to input something in, and we later defined that argument as a float. Now, when 
+    running it, it accepted the input and all we had to do after that was create and except statement that 
+    gave and error if anything other than a number was put in.</p>
     </li>
   </ul>
 </body>
